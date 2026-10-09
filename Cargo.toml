@@ -1,0 +1,9 @@
+[package]
+name = "cybidentity"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+ed25519-dalek = { version = "2", features = ["rand_core"] }
+rand_core = { version = "0.6", features = ["getrandom"] }
